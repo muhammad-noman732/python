@@ -105,6 +105,7 @@ for num in range(1, 51):  # Loop through numbers from 1 to 50
 
 
 # Q13-Use nested loops to print a pyramid pattern of *.
+
 rows = 5
 for i in range( 1 , rows+1 ):    #to onclude last row
         # Print spaces
@@ -116,6 +117,7 @@ for i in range( 1 , rows+1 ):    #to onclude last row
     print()
 
 # Q14- write a program that break the loop when certain condition is met:
+
 num = int(input("enter a number :"))
 for i in range(1 , num+1):
    if i == 7:
